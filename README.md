@@ -18,7 +18,6 @@
              <td  align = "center"><img src="https://www.brandeps.com/logo-download/C/C-Sharp-logo-vector-01.svg" height=30 /><br>C#</td>
              <td  align = "center"><img src="https://img.icons8.com/color/24/000000/html-5.png"/><br>HTML5</td>
              <td  align = "center"><img src="https://img.icons8.com/color/24/000000/css3.png"/><br>CSS3</td>
-             <td  align = "center"><img src="https://upload.wikimedia.org/wikipedia/commons/9/98/Solidity_logo.svg" height=30 /><br>Solidity</td>
              <td  align = "center"><img src="https://img.icons8.com/ios-filled/24/000000/mysql-logo.png"/><br>SQL</td>
          </tr>
      </table>
