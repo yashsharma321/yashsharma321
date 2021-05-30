@@ -1,7 +1,7 @@
 ### Hi there 👋
 
-<p align="left">
-    <strong>I am a student at Jalpaiguri Government Engineering College with a concentration in Information Technology and Engineering. In my current academic, I focus on the in-and-out of computers and their related technologies. I am particularly interested in the role that data, automation, and security play in expanding and improvising the technologies. I also have a growing interest in Statistics, Econometric, Blockchain, Quantum Computing, and the ways in which Data Science can be harnessed for humanity. </strong><br><br></p>
+<p align="left"> An enthusiastic IT final year B.tech student and with hands-on experience in writing code frontend/backend/database server and exposure to test automation frameworks. I have good analytical and problem-solving skills and proficient in verbal and communication skills. My primary aim is to gain an entry-level software engineer position in a reputed IT MNC, where I can use my problem-solving skills & software development knowledge to maintain software, perform requirement gathering, and assist in designing software applications.<br><br>
+</p>
 
 <details align="center">
     <summary align="center"><strong>Programming Languages:</strong></summary>
