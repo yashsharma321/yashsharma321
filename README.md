@@ -1,6 +1,7 @@
 ### Hi there 👋
 
-<p align="left"> An enthusiastic IT final year B.tech student and with hands-on experience in writing code frontend/backend/database server and exposure to test automation frameworks. I have good analytical and problem-solving skills and proficient in verbal and communication skills. My primary aim is to gain an entry-level software engineer position in a reputed IT MNC, where I can use my problem-solving skills & software development knowledge to maintain software, perform requirement gathering, and assist in designing software applications.<br><br>
+<p align="left"> Frontend Developer having 1.5 years of demonstrated working experience developing creative reusable custom elements with their functionality encapsulated components in ReactJS, NodeJS, Flux/Redux/Reflux, Redux Thunk/Redux-Saga delivering medium to complex level applications. Proficient in English language skills to convince potential customers and clients. I consider myself a quick learner and good at problem-solving, perseverance, and the ability to handle multiple tasks simultaneously.
+<br><br>
 </p>
 
 <details align="center">
