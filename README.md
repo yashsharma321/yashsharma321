@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-<p align="left"> Frontend Developer having 1.5 years of demonstrated working experience developing creative reusable custom elements with their functionality encapsulated components in ReactJS, NodeJS, Flux/Redux/Reflux, Redux Thunk/Redux-Saga delivering medium to complex level applications. Proficient in English language skills to convince potential customers and clients. I consider myself a quick learner and good at problem-solving, perseverance, and the ability to handle multiple tasks simultaneously.
+<p align="left"> Frontend Developer having 2+ years of demonstrated working experience developing creative reusable custom elements with their functionality encapsulated components in ReactJS, NodeJS, Flux/Redux/Reflux, Redux Thunk/Redux-Saga delivering medium to complex level applications. Proficient in English language skills to convince potential customers and clients. I consider myself a quick learner and good at problem-solving, perseverance, and the ability to handle multiple tasks simultaneously.
 <br><br>
 </p>
 
