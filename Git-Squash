@@ -1,0 +1,31 @@
+To squash all commits in your branch into a single commit without making any changes to the code, you can use the following approach:
+
+Steps to Combine All Commits into One:
+Checkout the branch that you want to clean up:
+
+git checkout <your-branch>
+Identify the first commit of the branch: To combine all commits into one, you need to know the base commit where your branch started (or merged from another branch like master or develop).
+
+You can find the commit where your branch diverged from its base branch (e.g., master) using:
+
+git merge-base <your-branch> master
+This will give you the commit hash of the common ancestor, which is the point where your branch split from master. You can substitute master with any base branch from which your branch was created.
+
+Reset the branch to that commit: Use git reset --soft to reset the branch to the common base commit. This will keep all your changes but reset the commit history.
+
+git reset --soft <commit-hash>
+Replace <commit-hash> with the commit returned by the merge-base command (or the commit you want to squash from). This will unstage all commits but leave the changes intact in your working directory.
+
+Create a new commit with all the changes: Now that all the changes are in your working directory and unstaged, you can create a single commit that includes all the changes:
+
+git commit -m "A single commit with all changes"
+Force-push the changes to the remote branch: Since you’ve rewritten the branch history, you’ll need to force-push the changes to the remote branch.
+
+git push --force
+This process will squash all the commits into one, and the branch history will show only a single commit while preserving all the code changes.
+
+Summary:
+Reset the branch to the base commit using git reset --soft.
+Commit all changes into one commit.
+Force-push the branch to update the remote history.
+This method ensures your code stays intact while the commit history is cleaned up. Let me know if you need help with any of the steps!
