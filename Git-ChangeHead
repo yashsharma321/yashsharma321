@@ -1,0 +1,24 @@
+I have created a branch from master, it was a mistake, I had to create a new branch from a feature branch 'SFVS-5204'. I can delete the newly created branch and re-create it from the feature branch SFVS-5204, or there any way just change the head of the newly created branch in git ??
+
+Yes, you can change the HEAD of the newly created branch without deleting and recreating it. Here's how you can fix this in Git:
+
+Steps to change the branch's HEAD:
+Checkout the newly created branch (the one you mistakenly created from master):
+
+git checkout <new-branch>
+Reset the HEAD of the new branch to the SFVS-5204 branch using the --hard option:
+git reset --hard SFVS-5204
+This will move the new-branch to point to the same commit as the SFVS-5204 branch.
+
+Explanation:
+The git reset --hard SFVS-5204 command effectively repositions the new-branch's HEAD to the same commit as SFVS-5204. The --hard option means that it also updates your working directory and index to match this commit.
+Note: If you've made any changes in the new-branch that you want to preserve, you might want to stash them first with git stash before running git reset --hard, and then apply the stash after resetting.
+
+If you don’t want to affect your working directory, you could also use a soft or mixed reset:
+
+Soft reset (preserves working directory and index):
+
+git reset --soft SFVS-5204
+Mixed reset (preserves working directory, resets index):
+
+git reset --mixed SFVS-5204
