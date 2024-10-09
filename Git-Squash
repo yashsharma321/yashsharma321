@@ -29,3 +29,11 @@ Reset the branch to the base commit using git reset --soft.
 Commit all changes into one commit.
 Force-push the branch to update the remote history.
 This method ensures your code stays intact while the commit history is cleaned up. Let me know if you need help with any of the steps!
+
+
+TO REBASE
+
+git rebase origin/featureBranch
+--resolve conflicts ---
+git rebase --continue
+git push -f
